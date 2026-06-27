@@ -1,0 +1,11 @@
+# Core dependencies
+Pillow>=10.0.0
+numpy>=1.24.0
+Flask>=3.0.0
+
+# Primary OCR backend — PaddleOCR
+paddlepaddle>=2.5.0        # CPU version; use paddlepaddle-gpu for GPU
+paddleocr>=2.7.0
+
+# Fallback OCR backend — Tesseract
+pytesseract>=0.3.10
